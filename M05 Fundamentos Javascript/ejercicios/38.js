@@ -3,6 +3,9 @@
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y retórnalo.
   // Tu código:
+
+  return Math.ceil(num);
 }
 
-module.exports = redondearHaciaArriba;
+let arriba = redondearHaciaArriba(5.7);
+console.log(arriba);

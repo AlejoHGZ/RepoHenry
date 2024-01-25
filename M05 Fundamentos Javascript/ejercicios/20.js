@@ -11,4 +11,4 @@ function esVocal(letra) {
   } 
 }
 
-esVocal("a")
+esVocal("a");
