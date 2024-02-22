@@ -1,7 +1,7 @@
-function invertirTexto(texto) {
-  // La función recibe un argumento "texto" que es un string.
-  // Tu objetivo es invertir el string y devolver el string invertido.
-  // Tu código:
+function invertirString(str) {
+  return str.split('').reverse().join('');
 }
 
-module.exports = invertirTexto;
+// Ejemplo de uso:
+const resultado = invertirString('Hola, mundo!');
+console.log(resultado); // Salida: '!odnum ,aloH'
